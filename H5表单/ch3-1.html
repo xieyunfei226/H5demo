@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width:380px;
+        }
+        .stuform{
+            font-size:20px;
+            color:red;
+        }
+        .req{
+            color:red;
+        }
+        .input{
+            width:364px;
+        }
+    </style>
+</head>
+<body>
+    <h1>学生信息</h1>
+    <fieldset>
+        <legend class="stuform">学生档案</legend>
+        <form method="get" action="">
+            <p>姓名：</p>
+            <input type="text" name="name" placeholder="请输入姓名" required class="input"/>
+            <span class="req">*</span>
+            <br/>
+            <p>学号：</p>
+            <input type="text" name="num" placeholder="请输入学号" required class="input"/>
+            <span class="req">*</span>
+            <br/>
+            <p>手机号码：</p>
+            <input type="tel" name="tel" placeholder="请输入手机号" required class="input"/>
+            <span class="req">*</span>
+            <br/>
+            <p>邮箱地址：</p>
+            <input type="email" name="email" placeholder="请输入邮箱" required class="input"/>
+            <span class="req">*</span>
+            <br/>
+            <p>录取学校：</p>
+            <input type="search" name="school" list="names" class="input"/>
+            <datalist id="names">
+                <option>河北师范大学</option>
+                <option>北京大学</option>
+                <option>清华大学</option>
+                <option>南开大学</option>
+                <option>天津师范大学</option>
+            </datalist>
+            <br/>
+            <p>入学成绩：</p>
+            <input type="number" name="score" class="input"/>
+            <br/>
+            <p>入学时间：</p>
+            <input type="date" name="time" class="input"/>
+            <br/>
+            <br/>
+            <input type="submit" value="提交" class="input"/>
+        </form>
+    </fieldset>
+</body>
+</html>
