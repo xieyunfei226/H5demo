@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(img/bg3.jpg);
+    }
+    ul li{
+        float:left;
+        margin-top: 30px;
+        list-style: none;
+    }
+    ul a{
+        float: left;
+        background: #fff;
+        color: rgb(63, 60, 60);
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        margin-left:50px;
+        padding: 10px;
+        box-shadow: 0 4px 5px rgb(0,0,0);
+    }
+    ul a img{
+        display: block;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    ul li:nth-child(1) a{
+        transform: rotate(10deg);
+    }
+    ul li:nth-child(2) a{
+        transform: rotate(-9deg);
+    }
+    ul li:nth-child(3n) a{
+        transform: rotate(13deg);
+    }
+    ul li:nth-child(4) a{
+        transform: rotate(10deg);
+    }
+    ul li:nth-child(5) a{
+        transform: rotate(-8deg);
+    }
+    ul li a:hover{
+        transform: scale(1.25);
+        box-shadow: 0 4px 5px rgb(0,0,0);
+    }
+    </style>
+</head>
+<body>
+    <ul class="photoWall">
+        <li> <a href="#"> <img src="img/11.jpg" alt="相识" /> <p>相识</p> </a> </li>
+        <li> <a href="#"> <img src="img/22.jpg" alt="凝视" /> <p>凝视</p> </a> </li>
+        <li> <a href="#"> <img src="img/33.jpg" alt="甜睡" /> <p>甜睡</p> </a> </li>
+        <li> <a href="#"> <img src="img/44.jpg" alt="逗乐" /> <p>逗乐</p> </a> </li>
+        <li> <a href="#"> <img src="img/55.jpg" alt="奔跑" /> <p>奔跑</p> </a> </li>
+        <li> <a href="#"> <img src="img/66.jpg" alt="漠视" /> <p>漠视</p> </a> </li>
+    </ul>
+</body>
+</html>
