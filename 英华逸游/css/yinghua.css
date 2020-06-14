@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@media screen 
+.box{
+    width: 1428px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 46px;
+    background:#000 url(img/tell.png) 1023px 12px no-repeat;
+    position: relative;
+}
+.tel{
+    position: absolute;
+    top: 14px;
+    left: 1064px;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+.login{
+    position: absolute;
+    top: 14px;
+    left: 1208px;
+    color: #fff;
+    font-size: 15px;
+}
+.login a{
+    color: #fff;
+}
+.head{
+    width: 100%;
+    height: 79px;
+    background: url(img/logo.png) 115px 15px no-repeat;
+}
+.head ul{
+    margin-left: 415px;
+}
+.head ul li{
+    height: 70px;
+    width:80px;
+    margin:0 29px;
+    float: left;
+    text-align: center;
+    line-height: 77px;
+    font-size: 18px;
+}
+.head ul li:hover{
+    color: #cb5405;
+    border-bottom: #cb5405 4px solid;
+}
+.banner{
+    width: auto;
+    height: 449px;
+    background-image: url(img/banner.jpg);
+}
+.banner .word{
+    color: #fff;
+    font-size: 15px;
+    padding-top: 80px;
+    padding-left: 190px;
+}
